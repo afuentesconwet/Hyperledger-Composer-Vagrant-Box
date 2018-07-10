@@ -11,11 +11,11 @@ echo '========================================'
 #echo "Done!"
 
 echo "Preparing setup files"
-chmod u+x setup_1.sh
+chmod u+x prereqs-ubuntu.sh
 chmod u+x setup_2.sh
 echo "Done!"
 
-echo "Done! Run 'vagrant ssh', then './setup_1.sh', then 'exit', then 'reload', then 'vagrant ssh' then './setup_2.sh'"
+echo "Done! Run 'vagrant ssh', then './prereqs-ubuntu.sh', then 'exit', then 'reload', then 'vagrant ssh' then './setup_2.sh'"
 
 
 
